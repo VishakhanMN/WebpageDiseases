@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+<div class="container-fluid">
+  <h4>Click on any of the diseases to know more about it...</h4>
+  <div class="row">
+    <div class="column">
+      <img src="./Images/diabetes.jpg" height="80%" alt="Snow" style="width:100%" >
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        DIABETES
+      </button>
+    </div>
+    <div class="column">
+      <img src="./Images/ebola.jpg" height="80%" alt="Forest" style="width:100%">
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ebolaModal">
+        EBOLA
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="./Images/hiv.png" height="80%" alt="Mountains" style="width:100%">
+      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#hivModal">
+        HIV
+      </button>
+    </div>
+    <div class="column">
+      <img src="./Images/TUBERCULOSIs.jpg" height="80%" alt="Mountains" style="width:100%">
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#tbModal">
+        TUBERCULOSIS
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for diabetes -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div id="demoDiabetes" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demoDiabetes" data-slide-to="0" class="active"></li>
+          <li data-target="#demoDiabetes" data-slide-to="1"></li>
+          <li data-target="#demoDiabetes" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/DIABETES PART 1.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/DIABETES PART 2.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/DIABETES PART 3_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/DIABETES PART 3_page-0002.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/DIABETES PART 4.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/DIABETES PART 5.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/DIABETES PART 6.jpg" height="500px" width="650px" alt="D1">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demoDiabetes" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demoDiabetes" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal for ebola -->
+<div class="modal" id="ebolaModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div id="demoEbola" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demoEbola" data-slide-to="0" class="active"></li>
+          <li data-target="#demoEbola" data-slide-to="1"></li>
+          <li data-target="#demoEbola" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/EBOLA PART 1.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/EBOLA PART 2.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/EBOLA PART 3.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/EBOLA PART 4.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/EBOLA PART 5.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/EBOLA PART 6.jpg" height="500px" width="650px" alt="D1">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demoEbola" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demoEbola" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal for HIV -->
+<div class="modal" id="hivModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div id="demoHiv" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demoHiv" data-slide-to="0" class="active"></li>
+          <li data-target="#demoHiv" data-slide-to="1"></li>
+          <li data-target="#demoHiv" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/HIV PART 1.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/HIV PART 2_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/HIV PART 3_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/HIV PART 4_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/HIV PART 5_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/HIV PART 6_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demoHiv" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demoHiv" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal for TUBERCULOSIS -->
+<div class="modal" id="tbModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div id="demoTb" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demoTb" data-slide-to="0" class="active"></li>
+          <li data-target="#demoTb" data-slide-to="1"></li>
+          <li data-target="#demoTb" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/TUBERCULOSIS PART 1_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TUBERCULOSIS PART 2_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TUBERCULOSIS PART 3_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TUBERCULOSIS PART 4_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TUBERCULOSIS PART 5_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/TUBERCOLOSIS PART 6_page-0001.jpg" height="500px" width="650px" alt="D1">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demoTb" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demoTb" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
